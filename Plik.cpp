@@ -228,7 +228,7 @@ void field(int board[20][20], int difficulty)
 		{
 			currentTime = time(NULL);
 			//checking if the player lost the game
-			if (playerY == 19)
+			if (playerY >= 19)
 			{
 				cout << "\n\n\n";
 				cout << "Przegrałeś!" << endl;
